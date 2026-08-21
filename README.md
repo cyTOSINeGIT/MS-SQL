@@ -37,3 +37,65 @@ Evidence-Based Planning: Encourage data-driven decision-making within hospital b
 The goal of the project is to provide hospital planners with consistent and trustworthy visibility into bed demand and occupancy patterns.
 
 By using structured SQL analysis rather than predictive modelling, the project supports earlier identification of operational pressures, better capacity planning, fewer disruptions, and more confident healthcare management decisions.
+
+**GREENTECH ANALYSIS PROJECT OVERVIEW**
+
+This Microsoft SQL Server project focuses on preparing, transforming, and analysing production data to understand productivity, downtime, operator performance, and production efficiency.
+
+The project uses data from the following tables:
+
+Products
+Line Productivity
+Line Downtime
+Downtime Factors
+
+**1. Data Integration**
+
+The project demonstrates practical SQL Server data cleaning, transformation, analysis, KPI development, and business insight generation using production data.
+
+The project begins by restoring the database backup into Microsoft SQL Server and working with the available production-related tables.
+
+**2. Data Cleaning**
+
+SQL is used to validate and prepare the data by:
+
+Checking for missing or null values
+Validating timestamps
+Checking batch IDs
+Verifying data types
+Identifying inconsistencies and duplicate records
+Ensuring the data is suitable for analysis
+
+**3. Data Transformation**
+
+SQL transformations are applied to prepare the data for analysis and reporting. This includes restructuring and standardising data where required to create consistent datasets for KPI calculations.
+
+**4. Data Analysis & KPI Development**
+
+SQL queries are developed to analyse key production metrics, including:
+
+Downtime by product
+Downtime by factor type
+Operator performance
+Production efficiency
+Downtime frequency
+Operator utilisation
+
+These calculations help identify production inefficiencies and areas requiring operational improvement.
+
+**5. SQL-Based Insights**
+
+The analysis focuses on identifying:
+
+Major sources of production downtime
+Products affected by downtime
+Operator and non-operator-related issues
+Downtime patterns over time
+Production bottlenecks
+Opportunities to improve operational efficiency
+
+**6. Optimisation**
+
+The final SQL analysis provides a structured foundation for identifying opportunities to reduce downtime, improve production throughput, optimise scheduling, and reduce operational costs.
+
+The project demonstrates practical SQL Server data cleaning, transformation, analysis, KPI development, and business insight generation using production data.
