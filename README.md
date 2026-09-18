@@ -1,3 +1,59 @@
+**NorthBridge Healthcare Operations - SQL Analysis**
+
+This folder contains the SQL analysis and data validation work completed as part of the NorthBridge healthcare operations project.
+
+The project began with the operational dataset in Excel, followed by cleaning and transformation in Power Query. The prepared data was then analysed in SQL, before being connected to Power BI for the final dashboards.
+
+**Project Focus**
+
+The SQL work was used to:
+
+Validate the quality and structure of the prepared data
+Analyse SLA breaches and breach rates
+Measure response and resolution times
+Analyse agent performance and workload
+Examine client performance
+Analyse hub performance
+Track monthly ticket and SLA trends
+Identify high-volume and higher-risk clients
+Data Validation
+
+**The SQL checks included:**
+
+Table and column inspection
+Ticket row-count validation
+Duplicate checks
+Missing-value checks
+Validation of key fields across the Tickets, Clients and Agents tables
+Checks for tickets without a matching agent record
+Key Analysis
+
+**The SQL queries cover:**
+
+SLA Performance
+Overall SLA breach rates and breakdowns by priority, channel, status and category.
+
+Client Performance
+Ticket volumes and SLA performance by client, contract tier, client type, region and SLA credit clause.
+
+Agent & Workload Analysis
+Ticket volume, SLA breach rate, workload pressure and hub-level performance.
+
+Time Trends
+Monthly ticket volumes and monthly SLA breach rates.
+
+**Reporting Views**
+
+Seven SQL views were created to structure the analysis for reporting:
+
+vw_SLA_Overall
+vw_Ticket_SLA
+vw_Client_Performance
+vw_Agent_Performance
+vw_Hub_Performance
+vw_Monthly_SLA
+vw_High_Risk_Clients
+
 **HORIZON HEALTHCARE PROJECT OBJECTIVE**
 
 This Microsoft SQL Server (MS SQL) project focuses on the structured analysis of historical and current bed demand and occupancy across Horizon Health Network hospitals.
